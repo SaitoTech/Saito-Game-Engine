@@ -8,7 +8,7 @@ Deliverables for Saito web3 foundation grant milestone two deliverables.
 * saito-game-engine.md 
 * api.md
 ### /lib/
-  gamengine.js Game library. This file contains extensive inline documentation of the core game and blockchain functions including move stack.
+  gamengine.js library. This file contains extensive inline documentation of the core game and blockchain functions including move stack.
 
 ### /gametestsuite/
 
@@ -34,8 +34,9 @@ Provide test clients with WND
 3. Fund both wallets with WND. (Public Keys will appear at the top of the sidebar, and be copied to the clipboard on click.)
 
 Test web3 ecosystem integration
-1. In a first browser select "GameTestSuite" from the menu to create a game invitation. 
-1. In the second browser, accept the invitation.
-1. In both browsers follow the promts to initialise the game.
-1. Enter the game. Request Payment, Make Payment and Check Balance routines can be checked against the live Westend network using the relevant buttons.
+1. In a first browser select "GameTestSuite" from the menu to create a game invitation. <br />
+  Make sure to select **Advanced** options and **select WND** as the crpyo for the game.
+2. In the second browser, accept the invitation.
+3. In both browsers follow the promts to initialise the game.
+4. Enter the game. Request Payment, Make Payment and Check Balance routines can be checked against the live Westend network using the relevant buttons.
 > Note: a log can be expanded from the right hand side of the screen to make test output and game actions visible.  

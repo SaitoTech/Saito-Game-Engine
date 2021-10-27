@@ -9,7 +9,7 @@ This test suite is presented as a Saito game module.
 
 1. Copy this (the gametestsuite) directory into /mods
 
-1. Edit /config/modules.config.js to include ```'gametemplate/gametemplate.js'``` this module in both core/lite distributions<br />
+1. Edit /config/modules.config.js to include ```'gametemplate/gametemplate.js'``` and the crypto modules you want to test - eg ```'westend/westend.js'``` this module in both core/lite distributions<br />
 
 1. recompile the javascript: ```npm run nuke```
 
@@ -26,12 +26,14 @@ module.exports = {
     'registry/registry.js',
     'settings/settings.js',
     'arcade/arcade.js',
+    'westend/westend.js'.
     'gametestsuite/gametestsuite.js'
   ],
   lite: [
     'registry/registry.js',
     'arcade/arcade.js',
-	'gametestsuite/gametestsuite.js'
+    'westend/westend.js'.
+  	'gametestsuite/gametestsuite.js'
     ]
 }
 ```
